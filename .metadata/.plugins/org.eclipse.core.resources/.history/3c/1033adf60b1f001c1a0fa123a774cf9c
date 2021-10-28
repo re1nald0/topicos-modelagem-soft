@@ -1,0 +1,18 @@
+package main;
+
+public class PessoaFisica extends Pessoa {
+	public String anoNascimento, cpf;
+	public Double salario;
+	
+	public PessoaFisica(String nome, String anoNascimento, String cpf, Double salario) {
+		super(nome);
+		this.anoNascimento = anoNascimento;
+		this.cpf = cpf;
+		this.salario = salario;
+	}
+	
+	@Override
+	public String toString() {
+		return "Nome" + super.nome;
+	}
+}

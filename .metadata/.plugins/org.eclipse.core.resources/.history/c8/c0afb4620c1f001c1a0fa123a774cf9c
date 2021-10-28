@@ -1,0 +1,12 @@
+package main;
+
+public abstract class Pessoa {
+	public String nome;
+	
+	public Pessoa(String nome) {
+		this.nome = nome;
+	}
+	
+	@Override
+	public abstract String toString();
+}
